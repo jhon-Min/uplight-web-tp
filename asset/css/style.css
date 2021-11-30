@@ -1,0 +1,95 @@
+/* ================ ulti =============== */
+.letter-spc-1 {
+  letter-spacing: 1px;
+}
+
+.spacer {
+  border: 1px solid #0d6efd;
+  width: 100px;
+}
+
+.mt-8 {
+  margin-top: 80px;
+}
+
+/* ================ Header =============== */
+.twitter,
+.fb,
+.ig,
+.lk,
+.ph,
+.mail {
+  font-size: 18px;
+  border: 2px solid white;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* ================ Nav =============== */
+
+/* ================ Hero =============== */
+.hero {
+  background-image: url("../img/hero-bg-2.png");
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-status h1 {
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.h-80 {
+  height: 85vh;
+}
+
+.btn-explore {
+  border-radius: 35px;
+  padding: 15px 35px;
+}
+
+.hero img {
+  width: 450px;
+}
+
+/* ================ About =============== */
+.about {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.about-img-1 {
+  max-width: 85%;
+}
+
+.about-img-2 {
+  max-width: 45%;
+  height: auto;
+  margin-top: 75px;
+}
+
+.about-card {
+  border: 0px;
+}
+
+.about-card-icon {
+  font-size: 55px;
+  color: #ff0000;
+}
+
+/* ================ Our Partner =============== */
+.partner {
+  background-image: url("../img/partner-bg.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0;
+}
