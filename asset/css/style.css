@@ -8,8 +8,20 @@
   width: 100px;
 }
 
+.g-title {
+  font-size: 2.6rem;
+}
+
 .mt-8 {
   margin-top: 80px;
+}
+
+.mt-minus-5 {
+  margin-top: -55px;
+}
+
+.pt-20 {
+  padding-top: 200px;
 }
 
 /* ================ Header =============== */
@@ -62,8 +74,8 @@
 
 /* ================ About =============== */
 .about {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .about-img-1 {
@@ -88,8 +100,52 @@
 /* ================ Our Partner =============== */
 .partner {
   background-image: url("../img/partner-bg.png");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+.partner,
+.make-brand {
+  padding: 75px 0;
+}
+
+/* ================ Make your brand =============== */
+.make-brand {
+  padding-bottom: 0px;
+}
+
+.make-img-1 {
+  height: 80%;
+}
+
+.btn-read {
+  padding: 13px 28px;
+  border-radius: 35px;
+}
+
+/* ================ Our Feature =============== */
+.feature-img {
+  width: 55px;
+  height: auto;
+}
+
+.feature-img-ph {
+  max-width: 65%;
+}
+
+.feature {
+  padding-bottom: 50px;
+}
+
+/* ================ Portfolio =============== */
+.portfolio {
+  background-image: url("../img/portfolio-bg.png");
   height: 100vh;
   background-size: cover;
   background-position: center;
   padding: 70px 0;
+}
+
+.portfolio-img {
+  border-radius: 7px;
 }
