@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- Header -->
-    <div class="header bg-primary py-2">
+    <div class="header bg-primary py-2 d-none d-md-block">
       <div class="container d-flex justify-content-between align-items-center">
         <div class="d-flex">
           <div class="d-flex align-items-center me-3">
@@ -90,7 +90,7 @@
                 <a href="" class="nav-link text-black">OUR TEAMS</a>
               </li>
 
-              <li class="nav-item fw-bold mx-2 mx-md-0">
+              <li class="nav-item ms-2 fw-bold">
                 <a href="" class="nav-link text-black">CONTACT</a>
               </li>
             </ul>
@@ -133,7 +133,7 @@
         </p>
       </div>
 
-      <div class="row mt-8">
+      <div class="row mt-8 about-row">
         <div class="col-12 col-md-6">
           <img
             src="asset/img/about-1.png"
@@ -170,8 +170,8 @@
           <img src="asset/img/single-img.png" alt="" class="about-img-2" />
         </div>
 
-        <div class="row">
-          <div class="col-12 col-lg-4">
+        <div class="row mt-3">
+          <div class="col-12 col-md-4">
             <div class="card about-card">
               <div class="card-body text-center">
                 <i class="feather-edit about-card-icon"></i>
@@ -188,7 +188,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-4">
             <div class="card about-card">
               <div class="card-body text-center">
                 <i class="feather-layers about-card-icon"></i>
@@ -205,7 +205,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-4">
             <div class="card about-card">
               <div class="card-body text-center">
                 <i class="feather-lock about-card-icon"></i>
@@ -240,35 +240,35 @@
         </div>
 
         <div class="row mt-8 justify-content-center justify-content-md-start">
-          <div class="col-5 col-md-2 mb-5">
+          <div class="col-5 col-md-3 mb-5">
             <img src="asset/img/clients-1.png" alt="" class="img-fluid" />
           </div>
 
-          <div class="col-5 col-md-2 mb-5">
+          <div class="col-5 col-md-3 mb-5">
             <img src="asset/img/clients-2.png" alt="" class="img-fluid" />
           </div>
 
-          <div class="col-5 col-md-2 mb-5">
+          <div class="col-5 col-md-3 mb-5">
             <img src="asset/img/clients-3.png" alt="" class="img-fluid" />
           </div>
 
-          <div class="col-5 col-md-2 mb-5">
+          <div class="col-5 col-md-3 mb-5">
             <img src="asset/img/clients-4.png" alt="" class="img-fluid" />
           </div>
 
-          <div class="col-5 col-md-2 mb-5">
+          <div class="col-5 col-md-3 mb-5">
             <img src="asset/img/clients-1.png" alt="" class="img-fluid" />
           </div>
 
-          <div class="col-5 col-md-2 mb-5">
+          <div class="col-5 col-md-3 mb-5">
             <img src="asset/img/clients-2.png" alt="" class="img-fluid" />
           </div>
 
-          <div class="col-5 col-md-2 mb-5">
+          <div class="col-5 col-md-3 mb-5">
             <img src="asset/img/clients-3.png" alt="" class="img-fluid" />
           </div>
 
-          <div class="col-5 col-md-2 mb-5">
+          <div class="col-5 col-md-3 mb-5">
             <img src="asset/img/clients-4.png" alt="" class="img-fluid" />
           </div>
         </div>
@@ -297,7 +297,9 @@
           />
         </div>
 
-        <div class="col-12 col-md-6">
+        <div
+          class="col-12 col-md-6 d-flex align-items-center align-items-lg-start"
+        >
           <div class="pt-20">
             <h2 class="fw-bolder mb-4">Perfect Solution for Small Business.</h2>
             <p class="text-secondary">
@@ -358,7 +360,14 @@
       </div>
 
       <div class="row mt-8 justify-content-center">
-        <div class="col-lg-3 d-flex flex-column justify-content-center">
+        <div
+          class="
+            col-12 col-lg-3
+            d-flex
+            flex-row flex-lg-column
+            justify-content-center
+          "
+        >
           <div class="card about-card">
             <div class="card-body text-center">
               <img src="asset/img/icon-4.png" alt="" class="feature-img" />
@@ -382,7 +391,7 @@
           </div>
         </div>
 
-        <div class="col-lg-5 d-flex justify-content-center">
+        <div class="col-lg-5 d-flex justify-content-center d-none d-lg-block">
           <img
             src="asset/img/phone-3.png"
             alt=""
@@ -391,7 +400,14 @@
           />
         </div>
 
-        <div class="col-lg-3 d-flex flex-column justify-content-center">
+        <div
+          class="
+            col-12 col-lg-3
+            d-flex
+            flex-row flex-lg-column
+            justify-content-center
+          "
+        >
           <div class="card about-card">
             <div class="card-body text-center">
               <img src="asset/img/icon-6.png" alt="" class="feature-img" />
@@ -483,11 +499,11 @@
 
         <div class="row mt-8">
           <div class="col-12 col-md-6">
-            <img src="asset/img/ceo.png" alt="" class="img-fluid h-75" />
+            <img src="asset/img/ceo.png" alt="" class="img-fluid team-ceo" />
           </div>
 
           <div class="col-12 col-md-6">
-            <div>
+            <div class="team-ceo-status">
               <h2 class="fw-bolder mb-4">
                 We Provide High <br />
                 Quality Services.
@@ -501,12 +517,22 @@
               </p>
               <h4 class="mt-4 fw-bolder">Seo Jun Min</h4>
               <p class="h5 fw-light text-black-50">Founder - Minimal Studio</p>
-              <img src="asset/img/signature.png" alt="" class="w-25 mt-5" />
+              <img
+                src="asset/img/signature.png"
+                alt=""
+                class="w-25 mt-3 mt-lg-5"
+              />
             </div>
           </div>
         </div>
 
-        <div class="row justify-content-lg-center justify-content-start">
+        <div
+          class="
+            row
+            justify-content-lg-center justify-content-start
+            team-member
+          "
+        >
           <div class="col-12 col-md-4 col-lg-3 mx-0 mx-lg-4">
             <img
               src="asset/img/team-1.png"

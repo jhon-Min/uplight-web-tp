@@ -164,6 +164,11 @@
   border-radius: 7px;
 }
 
+/* ================ Team =============== */
+.team-ceo {
+  height: 75%;
+}
+
 /* ================ Contact =============== */
 .contact {
   background-image: url("../img/contact-bg.png");
@@ -184,4 +189,115 @@
 .icon a i {
   font-size: 25px;
   color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 770px) {
+  /*Tablets [601px -> 1200px]*/
+  .hero {
+    height: 60vh;
+    background-position: center;
+  }
+
+  .h-80 {
+    height: 60vh;
+  }
+
+  .hero-status h1 {
+    font-size: 33px;
+  }
+
+  .hero-status p {
+    font-size: 14px;
+  }
+
+  .hero img {
+    width: 415px;
+  }
+
+  .btn-explore,
+  .btn-contact,
+  .btn-read {
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+
+  .about {
+    padding-top: 0px;
+  }
+
+  .about-row {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .about-row p,
+  .about-card p {
+    font-size: 14px;
+  }
+
+  .about-img-1 {
+    max-width: 100%;
+  }
+
+  .about-card h4 {
+    font-size: 22px;
+  }
+
+  .partner {
+    height: 58vh;
+  }
+
+  .pt-20 {
+    padding-top: 0px;
+  }
+
+  .make-brand p {
+    font-size: 14px;
+  }
+
+  .make-img-1 {
+    height: auto;
+  }
+
+  .mt-minus-5 {
+    margin-top: 55px;
+  }
+
+  .feature {
+    padding-top: 100px;
+  }
+
+  .portfolio {
+    height: 52vh;
+  }
+
+  .team-ceo {
+    height: auto;
+  }
+
+  .team-ceo-status {
+    padding-left: 7px;
+  }
+
+  .team-member {
+    margin-top: 85px;
+  }
+
+  .contact {
+    height: 60vh;
+  }
+
+  .vh-7 {
+    height: 45vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
 }
