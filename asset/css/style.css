@@ -166,7 +166,11 @@
 
 /* ================ Team =============== */
 .team-ceo {
-  height: 75%;
+  height: 90%;
+}
+
+.team-member {
+  margin-top: 60px;
 }
 
 /* ================ Contact =============== */
@@ -192,8 +196,61 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  /*Tablets [601px -> 1200px]*/
+  /*Tablets [771px -> 1200px]*/
+  .hero {
+    height: 80vh;
+  }
+
+  .h-80 {
+    height: 80vh;
+  }
+
+  .about {
+    padding-top: 30px;
+  }
+
+  .about-img-1 {
+    max-width: 100%;
+  }
+
+  .partner {
+    max-height: 75vh;
+  }
+
+  .make-brand {
+    padding: 85px 0;
+  }
+
+  .make-img-1 {
+    height: 95%;
+  }
+
+  .mt-minus-5 {
+    margin-top: 30px;
+  }
+
+  .feature {
+    padding-top: 25px;
+  }
+
+  .feature-img-ph {
+    max-width: 75%;
+  }
+
+  .portfolio {
+    padding-top: 85px;
+    height: 85vh;
+  }
+
+  .team-ceo {
+    height: auto;
+  }
+
+  .team-member {
+    margin-top: 90px;
+  }
 }
+
 @media only screen and (max-width: 770px) {
   /*Tablets [601px -> 1200px]*/
   .hero {
@@ -255,6 +312,10 @@
     padding-top: 0px;
   }
 
+  .make-brand {
+    padding: 75px 0;
+  }
+
   .make-brand p {
     font-size: 14px;
   }
@@ -270,6 +331,10 @@
   .feature {
     padding-top: 100px;
   }
+
+  /* .feature-img-display {
+    display: none !important;
+  } */
 
   .portfolio {
     height: 52vh;
@@ -294,10 +359,136 @@
   .vh-7 {
     height: 45vh;
   }
+
+  .btn-contact {
+    padding: 12px 22px;
+  }
 }
+
 @media only screen and (max-width: 600px) {
   /*Big smartphones [426px -> 600px]*/
 }
+
 @media only screen and (max-width: 425px) {
-  /*Small smartphones [325px -> 425px]*/
+  /*Small smartphones [376px -> 425px]*/
+  .hero {
+    height: 70vh;
+  }
+
+  .h-80 {
+    height: 70vh;
+  }
+
+  .hero-status p {
+    font-size: 16px;
+  }
+
+  .hero-status h1 {
+    font-size: 38px;
+  }
+
+  .btn-explore {
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  .g-title {
+    font-size: 2.1rem;
+  }
+
+  .about-row h2,
+  .make-text h2,
+  .team-ceo-status h2 {
+    font-size: 1.7rem;
+  }
+
+  .about-row p,
+  .make-text p,
+  .team-ceo-status p {
+    font-size: 17px;
+  }
+
+  .about-img-2 {
+    max-width: 100%;
+  }
+
+  .partner {
+    height: 75vh;
+  }
+
+  .make-brand {
+    margin-top: 80px;
+  }
+
+  .make-img-1 {
+    height: 80%;
+  }
+
+  .make-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -45px;
+  }
+
+  .btn-read {
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .mt-minus-5 {
+    margin-top: 115px;
+  }
+
+  .feature {
+    padding-top: 0px;
+    margin-top: -30px;
+  }
+
+  .portfolio {
+    height: 92vh;
+  }
+
+  .contact {
+    height: 75vh;
+  }
+  .vh-7 {
+    height: 52vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /*Big smartphones [325px -> 375px]*/
+  .g-title {
+    font-size: 1.9rem;
+  }
+
+  .hero {
+    height: 75vh;
+  }
+
+  .h-80 {
+    height: 75vh;
+  }
+
+  .about {
+    padding-top: 35px;
+  }
+
+  .partner {
+    margin-bottom: 150px;
+  }
+
+  .team {
+    padding-top: 110px;
+  }
+
+  .contact {
+    height: 80vh;
+  }
+
+  .vh-7 {
+    height: 55vh;
+  }
 }

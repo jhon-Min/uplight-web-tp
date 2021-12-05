@@ -102,10 +102,17 @@
     <!-- Hero -->
     <div class="hero">
       <div
-        class="container d-flex justify-content-between align-items-center h-80"
+        class="
+          container
+          d-flex d-md-flex
+          justify-content-center justify-content-md-between
+          align-items-center
+          h-80
+        "
       >
         <div class="hero-status">
           <h1>Your New Digital <br />Agency Email.</h1>
+          <!-- <img src="./asset/img/svg-hero.svg" alt="" class="" /> -->
           <p class="mt-3">
             Lorem ipsum dolor sit consectetur adipiscing elit <br />
             Curabitur placerat dolor sit tellus site.
@@ -114,7 +121,7 @@
           <button class="btn btn-primary btn-explore mt-3">EXPLORE NOW</button>
         </div>
 
-        <div>
+        <div class="hero-svg-box d-none d-md-block">
           <img src="./asset/img/svg-hero.svg" alt="" class="" />
         </div>
       </div>
@@ -170,7 +177,7 @@
           <img src="asset/img/single-img.png" alt="" class="about-img-2" />
         </div>
 
-        <div class="row mt-3">
+        <div class="row mt-4 mt-md-3">
           <div class="col-12 col-md-4">
             <div class="card about-card">
               <div class="card-body text-center">
@@ -188,7 +195,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 my-4 my-md-0">
             <div class="card about-card">
               <div class="card-body text-center">
                 <i class="feather-layers about-card-icon"></i>
@@ -276,72 +283,89 @@
     </div>
 
     <!-- Make Your Brand -->
-    <div class="make-brand container">
-      <div class="text-center">
-        <h1 class="fw-bolder g-title">Make Your Brand Shine</h1>
-        <div class="d-flex justify-content-center my-4">
-          <div class="spacer"></div>
-        </div>
-        <p class="text-secondary">
-          Lorem ipsum dolor sit consectetur adipiscing elit. <br />
-          Curabitur placerat tellus site.
-        </p>
-      </div>
-
-      <div class="row mt-8">
-        <div class="col-12 col-md-6">
-          <img
-            src="asset/img/phone-1.png"
-            alt=""
-            class="img-fluid make-img-1"
-          />
-        </div>
-
-        <div
-          class="col-12 col-md-6 d-flex align-items-center align-items-lg-start"
-        >
-          <div class="pt-20">
-            <h2 class="fw-bolder mb-4">Perfect Solution for Small Business.</h2>
-            <p class="text-secondary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit Nulla
-              accumsan, metus.Lorem ipsum dolor sit amet, Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit Nulla accumsan, metus.Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit Nulla accumsan,
-              metus.
-            </p>
-            <button class="btn btn-primary mt-3 btn-read">READ MORE</button>
+    <div class="make-brand">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="fw-bolder g-title">Make Your Brand Shine</h1>
+          <div class="d-flex justify-content-center my-4">
+            <div class="spacer"></div>
           </div>
+          <p class="text-secondary">
+            Lorem ipsum dolor sit consectetur adipiscing elit. <br />
+            Curabitur placerat tellus site.
+          </p>
         </div>
-      </div>
 
-      <div class="row mt-minus-5">
-        <div class="col-12 col-md-6 d-flex align-items-center">
-          <div>
-            <h2 class="fw-bolder mb-4">
-              Easy to Colaborate <br />
-              with Company.
-            </h2>
-            <p class="text-secondary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit Nulla
-              accumsan, metus.Lorem ipsum dolor sit amet, Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit Nulla accumsan, metus.Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit Nulla accumsan,
-              metus.
-            </p>
-            <p class="text-secondary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit Nulla
-              accumsan, metus.Lorem ipsum dolor sit amet, Lorem ipsum dolor sit
-            </p>
-            <button class="btn btn-primary mt-3 btn-read">READ MORE</button>
+        <div class="row mt-8">
+          <div class="col-12 col-md-6 d-flex justify-content-center d-md-block">
+            <img
+              src="asset/img/phone-1.png"
+              alt=""
+              class="img-fluid make-img-1"
+            />
+          </div>
+
+          <div
+            class="
+              col-12 col-md-6
+              d-flex
+              align-items-center align-items-lg-start
+            "
+          >
+            <div class="pt-20 make-text">
+              <h2 class="fw-bolder mb-4">
+                Perfect Solution for Small Business.
+              </h2>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit Nulla
+                accumsan, metus.Lorem ipsum dolor sit amet, Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit Nulla accumsan,
+                metus.Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Nulla accumsan, metus.
+              </p>
+              <button class="btn btn-primary mt-3 btn-read">READ MORE</button>
+            </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-6">
-          <img
-            src="asset/img/phone-2.png"
-            alt=""
-            class="img-fluid make-img-1"
-          />
+        <div class="row mt-minus-5">
+          <div class="col-12 col-md-6 d-flex align-items-center">
+            <div class="make-text">
+              <h2 class="fw-bolder mb-4">
+                Easy to Colaborate <br />
+                with Company.
+              </h2>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit Nulla
+                accumsan, metus.Lorem ipsum dolor sit amet, Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit Nulla accumsan,
+                metus.Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Nulla accumsan, metus.
+              </p>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit Nulla
+                accumsan, metus.Lorem ipsum dolor sit amet, Lorem ipsum dolor
+                sit
+              </p>
+              <button class="btn btn-primary mt-3 btn-read">READ MORE</button>
+            </div>
+          </div>
+
+          <div
+            class="
+              col-12 col-md-6
+              mt-5 mt-md-0
+              d-flex
+              justify-content-center
+              d-md-block
+            "
+          >
+            <img
+              src="asset/img/phone-2.png"
+              alt=""
+              class="img-fluid make-img-1"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -391,7 +415,7 @@
           </div>
         </div>
 
-        <div class="col-lg-5 d-flex justify-content-center d-none d-lg-block">
+        <div class="col-lg-5 d-none d-lg-flex justify-content-center">
           <img
             src="asset/img/phone-3.png"
             alt=""
@@ -497,13 +521,13 @@
           </p>
         </div>
 
-        <div class="row mt-8">
+        <div class="row mt-5">
           <div class="col-12 col-md-6">
             <img src="asset/img/ceo.png" alt="" class="img-fluid team-ceo" />
           </div>
 
-          <div class="col-12 col-md-6">
-            <div class="team-ceo-status">
+          <div class="col-12 col-md-6 d-flex align-items-center">
+            <div class="team-ceo-status mt-5 mt-md-0">
               <h2 class="fw-bolder mb-4">
                 We Provide High <br />
                 Quality Services.
@@ -600,7 +624,7 @@
     <footer class="bg-dark pt-7 pb-5">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6 pe-0 pe-lg-5">
+          <div class="col-12 col-md-6 pe-0 pe-lg-5 mb-5 mb-md-0">
             <a href="#" class="text-decoration-none fs-1 text-white fw-bold"
               >UPL<span class="text-primary">i</span>ght</a
             >
