@@ -97,7 +97,7 @@
 /* ================ Hero =============== */
 .hero {
   background-image: url("../img/hero-bg-2.png");
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -110,7 +110,7 @@
 }
 
 .h-80 {
-  height: 90vh;
+  height: 100vh;
 }
 
 .btn-explore,
@@ -120,12 +120,12 @@
 }
 
 .hero img {
-  width: 450px;
+  width: 530px;
 }
 
 .scroll-to-next {
   position: absolute;
-  bottom: 10px;
+  bottom: 50px;
   left: 0;
   right: 0;
   margin: auto;
@@ -324,25 +324,35 @@
 
 @media only screen and (max-width: 770px) {
   /*Tablets [601px -> 1200px]*/
+  .logo {
+    font-size: 45px !important;
+  }
+
+  .menu-icon {
+    font-size: 36px;
+  }
+
   .hero {
-    height: 60vh;
-    background-position: center;
+    height: 85vh;
+    background-image: url("../img/contact-bg.png");
+    background-position: right;
   }
 
   .h-80 {
-    height: 60vh;
+    height: 85vh;
   }
 
   .hero-status h1 {
-    font-size: 33px;
+    font-size: 35px;
+    margin-bottom: 32px !important;
   }
 
   .hero-status p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .hero img {
-    width: 415px;
+    width: 400px;
   }
 
   .btn-explore,
@@ -376,7 +386,7 @@
   }
 
   .about {
-    padding-top: 0px;
+    margin-top: 80px;
   }
 
   .about-row {
@@ -392,6 +402,10 @@
 
   .about-img-1 {
     max-width: 100%;
+  }
+
+  .about-img-2 {
+    margin-top: 115px;
   }
 
   .about-card h4 {
