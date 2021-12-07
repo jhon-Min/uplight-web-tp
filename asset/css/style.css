@@ -67,6 +67,33 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
+.nav-list li a {
+  position: relative;
+}
+
+.nav-list li a:before {
+  content: "";
+  width: 0px;
+  height: 3px;
+  background: #0d6efd;
+  position: absolute;
+  transition: 0.5s;
+  top: 100%;
+  left: 1;
+}
+
+.nav-list li:hover a:before {
+  width: 90%;
+}
+
+.navbar-toggler:focus {
+  color: white;
+}
+
+.nav-active {
+  border-bottom: 3px solid #0d6efd;
+}
+
 /* ================ Hero =============== */
 .hero {
   background-image: url("../img/hero-bg-2.png");
@@ -104,6 +131,10 @@
   margin: auto;
   width: 50px;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
 }
@@ -321,6 +352,29 @@
     font-size: 14px;
   }
 
+  .nav-list li {
+    margin: 10px 0;
+  }
+
+  .nav-list li:hover a:before {
+    width: 35px;
+  }
+
+  .nav-list li a {
+    padding-left: 25px !important;
+    border-radius: 5px;
+  }
+
+  .nav-active {
+    color: white !important;
+    background-color: #0d6efd;
+  }
+
+  .normal-nav {
+    background-color: #ffffffee !important;
+    backdrop-filter: blur(5px);
+  }
+
   .about {
     padding-top: 0px;
   }
@@ -411,12 +465,21 @@
 
 @media only screen and (max-width: 425px) {
   /*Small smartphones [376px -> 425px]*/
+  .logo {
+    font-size: 38px !important;
+  }
+
+  .menu-icon {
+    font-size: 30px;
+  }
+
   .hero {
-    height: 70vh;
+    height: 100vh;
+    background-position: left;
   }
 
   .h-80 {
-    height: 70vh;
+    height: 100vh;
   }
 
   .hero-status p {
@@ -436,6 +499,10 @@
   .g-title {
     font-size: 2.1rem;
   }
+
+  /* .about {
+    margin-top: 60px;
+  } */
 
   .about-row h2,
   .make-text h2,
@@ -505,11 +572,11 @@
   }
 
   .hero {
-    height: 75vh;
+    height: 100vh;
   }
 
   .h-80 {
-    height: 75vh;
+    height: 100vh;
   }
 
   .about {

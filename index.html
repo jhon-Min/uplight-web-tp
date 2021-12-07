@@ -74,12 +74,12 @@
         "
       >
         <div class="container">
-          <a href="#" class="text-decoration-none fs-1 text-black fw-bold"
+          <a href="#" class="text-decoration-none fs-1 text-black fw-bold logo"
             >UPL<span class="text-primary">i</span>ght</a
           >
 
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-0"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -90,10 +90,13 @@
             <i class="feather-menu p-1 text-secondary menu-icon"></i>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse hello"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav ms-auto nav-list">
               <li class="nav-item mx-2 fw-bold">
-                <a href="" class="nav-link text-black">HOME</a>
+                <a href="#home" class="nav-link text-black">HOME</a>
               </li>
 
               <li class="nav-item mx-2 fw-bold">
@@ -114,7 +117,7 @@
     </div>
 
     <!-- Hero -->
-    <div class="hero">
+    <div class="hero" id="home">
       <div
         class="
           container
@@ -698,6 +701,7 @@
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="asset/vendor/wow/wow.js"></script>
+    <script src="./node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="asset/js/app.js"></script>
   </body>
 </html>
