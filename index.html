@@ -19,7 +19,16 @@
   </head>
   <body>
     <!-- Header -->
-    <div class="header bg-primary py-2 d-none d-md-block">
+    <div
+      class="
+        header
+        bg-primary
+        py-2
+        d-none d-md-block
+        wow
+        animate__animated animate__fadeIn
+      "
+    >
       <div class="container d-flex justify-content-between align-items-center">
         <div class="d-flex">
           <div class="d-flex align-items-center me-3">
@@ -125,6 +134,9 @@
           justify-content-center justify-content-md-between
           align-items-center
           h-80
+          wow
+          animate__animated animate__slideInDown
+          ani-delay-1
         "
       >
         <div class="hero-status">
@@ -154,7 +166,7 @@
 
     <!-- About -->
     <div class="about container" id="about">
-      <div class="text-center">
+      <div class="text-center wow animate__animated animate__fadeIn">
         <h1 class="fw-bolder g-title">Everything About Us</h1>
         <div class="d-flex justify-content-center my-4">
           <div class="spacer"></div>
@@ -166,7 +178,7 @@
       </div>
 
       <div class="row mt-8 about-row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 wow animate__animated animate__slideInLeft">
           <img
             src="asset/img/about-1.png"
             alt=""
@@ -174,7 +186,9 @@
           />
         </div>
 
-        <div class="col-12 col-md-6">
+        <div
+          class="col-12 col-md-6 wow animate__animated animate__slideInRight"
+        >
           <div class="ps-2 pt-5">
             <h2 class="fw-bolder mb-4">
               Creative Design in <br />
@@ -197,7 +211,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row wow animate__animated animate__fadeIn">
         <div class="col-12 d-flex justify-content-center mb-3">
           <img src="asset/img/single-img.png" alt="" class="about-img-2" />
         </div>
@@ -260,7 +274,7 @@
     <!-- Our Partner -->
     <div class="partner">
       <div class="container">
-        <div class="text-center">
+        <div class="text-center wow animate__animated animate__fadeInDown">
           <h1 class="fw-bolder g-title">Our Success Partners</h1>
           <div class="d-flex justify-content-center my-4">
             <div class="spacer"></div>
@@ -626,7 +640,7 @@
       <div
         class="container d-flex justify-content-center align-items-center vh-7"
       >
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-8 wow animate__animated animate__fadeInDown">
           <h1 class="fw-bolder g-title my-4">We Provide The Best Solutions</h1>
           <p class="text-secondary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
@@ -702,6 +716,9 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="asset/vendor/wow/wow.js"></script>
     <script src="./node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <script src="asset/js/app.js"></script>
   </body>
 </html>
